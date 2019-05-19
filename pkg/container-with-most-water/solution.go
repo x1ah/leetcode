@@ -1,5 +1,6 @@
 package container_with_most_water
 
+// https://leetcode.com/problems/container-with-most-water
 // 从最矮的边，每次加一个单位的高度，画一条水平线，算与该水平线相交的最大面积（第一次相交于最后一次相交）
 // 直到最高边
 func maxArea(height []int) int {
